@@ -1,0 +1,31 @@
+.section__sobre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4em 30%;
+}
+
+.section__sobre .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section__titulo {
+    color: var(--marrom);
+    font-weight: 600;
+}
+
+.section__catch {
+    font-size: 48px;
+    font-weight: 600;
+    color: var(--preto);
+    padding: 0.8em 0;
+}
+
+.section__texto {
+    font-size: 20px;
+    color: var(--cinza);
+    text-align: center;
+    line-height: 150%;
+}

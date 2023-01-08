@@ -1,4 +1,6 @@
 @import url(css/header.css);
+@import url(css/main.css);
+@import url(css/metricas.css);
 
 :root {
     --branco: #FFFFFF;
