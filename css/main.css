@@ -1,29 +1,29 @@
-.section__sobre {
+.sobre {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 4em 30%;
 }
 
-.section__sobre .container {
+.sobre .container {
     display: flex;
     align-items: center;
     flex-direction: column;
 }
 
-.section__titulo {
+.sobre__titulo {
     color: var(--marrom);
     font-weight: 600;
 }
 
-.section__catch {
+.sobre__catch {
     font-size: 48px;
     font-weight: 600;
     color: var(--preto);
     padding: 0.8em 0;
 }
 
-.section__texto {
+.sobre__texto {
     font-size: 20px;
     color: var(--cinza);
     text-align: center;
