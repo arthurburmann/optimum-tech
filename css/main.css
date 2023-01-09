@@ -1,3 +1,5 @@
+/* SOBRE NÓS */
+
 .sobre {
     display: flex;
     align-items: center;
@@ -16,7 +18,7 @@
     font-weight: 600;
 }
 
-.sobre__catch {
+.sobre__destaque {
     font-size: 48px;
     font-weight: 600;
     color: var(--preto);
@@ -27,5 +29,41 @@
     font-size: 20px;
     color: var(--cinza);
     text-align: center;
+    line-height: 150%;
+}
+
+/* METRICAS */
+
+.metricas {
+    display: flex;
+    justify-content: center;
+    padding: 4em 0;
+
+}
+
+.metricas .container {
+    display: flex;
+}
+
+.metricas__item {
+    width: 280px;
+    padding: 0 2em;
+}
+
+.metricas__destaque {
+    font-weight: 600;
+    font-size: 60px;
+    color: var(--marrom);
+}
+
+.metricas__titulo {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--preto);
+    padding: 1em 0;
+}
+
+.metricas__texto {
+    color: var(--cinza);
     line-height: 150%;
 }
