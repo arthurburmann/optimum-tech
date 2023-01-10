@@ -67,3 +67,44 @@
     color: var(--cinza);
     line-height: 150%;
 }
+
+/* TALENTOS */
+
+.talentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5em 0;
+}
+
+.talentos .container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.talentos__destaque {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--marrom);
+    background: rgba(142, 36, 36, 0.05);
+    border-radius: 16px;
+    padding: 0.5em 0.8em;
+}
+
+.talentos__titulo {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--preto);
+}
+
+.talentos__texto {
+    font-size: 20px;
+    color: var(--cinza);
+    margin-top: 0.5em;
+}
+
+.talentos__imagem {
+    margin-top: 4em;
+}
