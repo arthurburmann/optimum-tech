@@ -108,3 +108,41 @@
 .talentos__imagem {
     margin-top: 4em;
 }
+
+/* VAGAS */
+
+.vagas {
+    padding: 0 25%;
+}
+
+.vagas__titulo-secao {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--preto);
+    margin-bottom: 1em;
+}
+
+.vagas__item {
+    border: 1px solid #EAECF0;
+    border-radius: 16px;
+    padding: 24px;
+    margin: 2em 0 1em 0;
+}
+
+.vagas__titulo-item {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.vagas__informacoes {
+    font-weight: 500;
+    color: var(--cinza);
+    display: flex;
+    gap: 1em;
+    padding-top: 2em;
+}
+
+.item-margin {
+    margin-bottom: 4em;
+}
