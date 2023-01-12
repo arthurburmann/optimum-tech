@@ -113,6 +113,7 @@
 
 .vagas {
     padding: 0 25%;
+    margin-bottom: 96px;
 }
 
 .vagas__titulo-secao {
@@ -145,4 +146,53 @@
 
 .item-margin {
     margin-bottom: 4em;
+}
+
+/* DEPOIMENTOS */
+
+.depoimentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 96px;
+}
+
+.depoimentos .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10%;
+    padding: 4em;
+    gap: 1em;
+    background: rgba(196, 25, 25, 0.03);
+    border-radius: 16px;
+}
+
+.depoimentos__destaque {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--marrom);
+}
+
+.depoimentos__titulo {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--preto);
+    text-align: center;
+    padding: 0.5em 0 1em 0;
+}
+
+.depoimentos__perfil-imagem {
+    height: 56px;
+    width: 56px;
+}
+
+.depoimentos__perfil-nome {
+    font-weight: 500;
+    color: var(--preto);
+}
+
+.depoimentos__perfil-cargo {
+    font-size: 14px;
+    color: var(--cinza);
 }
